@@ -1,0 +1,23 @@
+catalan's number
+
+ques) how many binary trees can you make with n number of nodes?
+ans):-
+    total number of nodes are 1,2,3,4,,,,,,,n
+    now we can choose any node as root node
+    so total number of ways of choosing root is n
+    lets say i choose ith number as my root node
+    now on left side of the root i will have i-1 nodes available to make a bst
+    and on right i will have n-i nodes available
+
+
+    now in order to make a complete binary tree i will have to choose one bst from left and one bst from right and combine it with the root node
+    lets say x=i-1 and y=n-1 
+    so choose one bst out of all bst from left is xC1
+    similarly for choosing one bst form right is yC1
+    so it becomes xC1*1*yC1 as the total bst that can be fromed if i choose ith as my root node
+    similary if i choose each element one time as root node for my bst then total number of bst that can become from n nodes are:-
+    f(n)=summation of from i=1 to i=n f(x).f(y);
+
+    a sumple formula for this is(also called catalan number):- 2nCn/n+1;
+    total number of unlabelled binary trees(talking about the structure of tree)=same as total number of bst that is  2nCn/n+1
+    total number of binary trees are:- n!*(2nCn/n+1);

@@ -1,0 +1,28 @@
+Iterator
+Iterators as an entity that helps us to access the data within a container with certain restriction
+
+1:- Input interators:
+   a entity through which you can read data from contaier and move ahead
+   for example: A keyboard
+
+2:- Output interators
+   a entity through which  you can write into the container and move ahead
+   eg:- printer
+
+3:- Forward interator
+   iterator with functionalities of input and ouput iterator in single direction
+   for ex:- singly linked list
+
+4:- Bidirection iterator
+   forward iterator that can move in both direction
+
+5:- Random Access iterator
+   Random Access iterator is an iterator that can read/write in both direction and also can take jump
+
+   Why learn iterator?
+
+   we want to make generic algorithm wiht freedom from underlying data structure
+
+   example:-
+   we made search() function to work on all data-types using Templates
+   NOw we can make search() function to work on all types of containers using iterators

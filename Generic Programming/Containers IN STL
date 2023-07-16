@@ -1,0 +1,24 @@
+Containers IN STL
+1 :- Sequence Containers: implement data structure which can be accessed in a Sequenceial manner
+   - vector
+   - list
+   - deque
+   - arrays
+   - forward list (single linked list)
+
+2 :- Container Adapters: provide a different interface for sequential Containers
+   - queue
+   - priority queue
+   - stack
+
+3 :- Associative Container: implement sorted data structures that can be quickly searched (OlogN) complexity
+   - set 
+   - multiset
+   - map
+   - multimap
+
+4 :- Unordered Associative Containers: implement Unordered data structures that can be quickly searched
+   - Unordered_set
+   - Unordered_multiset
+   - Unordered_map
+   - Unordered_multimap
